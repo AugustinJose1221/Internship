@@ -7,7 +7,6 @@
 ```
 git clone https://github.com/AugustinJose1221/Internship.git
 pip install -r requirements.txt
-
 ```
 To run the program,
 
