@@ -5,7 +5,7 @@
 <h2>Installation</h2>
 
 ```
-git clone 
+git clone https://github.com/AugustinJose1221/Internship.git
 pip install -r requirements.txt
 
 ```
@@ -14,4 +14,6 @@ To run the program,
 ```
 python main.py
 ```
+
+Change the video files in the Video directory to test it on custom video files
 
