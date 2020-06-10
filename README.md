@@ -5,6 +5,13 @@
 <h2>Installation</h2>
 
 ```
+git clone 
 pip install -r requirements.txt
 
 ```
+To run the program,
+
+```
+python main.py
+```
+
