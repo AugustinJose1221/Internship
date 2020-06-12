@@ -28,7 +28,7 @@ def Conv(image, kernal):
     conv = np.zeros(image.shape)
     
     for i in range(k_h, img_height-k_h):
-        for j in range(k_w, img_width=k_w):
+        for j in range(k_w, img_width-k_w):
             value = 0
             for x in range(kernal_height):
                 for y in range(kernal_width):
