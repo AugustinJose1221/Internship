@@ -37,4 +37,6 @@ Change the video files in the Video directory to test it on custom video files
     <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
   </tr>
  </table>
-
+ <br>
+<h3>Difference of Gaussian</h3>
+<img src="Difference/Output/GrayDiff1.jpg"></img>
