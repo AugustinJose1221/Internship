@@ -30,11 +30,11 @@ Change the video files in the Video directory to test it on custom video files
 <table>
   <tr>
     <td>sigma=11</td>
-    <td>sigma=12/td>
+    <td>sigma=12</td>
   </tr>
   <tr>
     <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
     <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
   </tr>
-  </table>
+ </table>
 
