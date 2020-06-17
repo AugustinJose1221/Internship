@@ -16,3 +16,5 @@ python main.py
 
 Change the video files in the Video directory to test it on custom video files
 
+<h2>Outputs</h2>
+<img src="Test/img/test.jpg">Input</img>
