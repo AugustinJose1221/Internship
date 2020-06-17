@@ -37,4 +37,4 @@ Change the video files in the Video directory to test it on custom video files
 <img src="Test/img/GrayBlur1.jpg" width="500"></img>
 </div>
 </div>
-
+![alt-text-1](Test/img/GrayBlur2.jpg "title-1") ![alt-text-2](Test/img/GrayBlur1.jpg "title-2")
