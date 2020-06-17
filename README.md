@@ -17,7 +17,12 @@ python main.py
 Change the video files in the Video directory to test it on custom video files
 
 <h2>Outputs</h2>
-```
+<br>
 <h3>Input Image</h3>
 <img src="Test/img/test.jpg"></img>
-```
+
+<br>
+<h3>Grayscale image</h3>
+<img src="Test/img/gray1.jpg"></img>
+
+
