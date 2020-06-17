@@ -30,8 +30,8 @@ The input image is loaded using opencv functions. All operations on the image is
 <img src="Test/img/gray1.jpg">
 
 ```
-The image is converted to grayscale. By doing so, the details get more prominent and the number of 
-channels of the image gets reduced from 3 to 1. This also increases the processing time of the program
+The image is converted to grayscale. By doing so, the details get more prominent and the number of channels of the
+image gets reduced from 3 to 1. This also increases the processing time of the program
 ```
 
 <br>
@@ -46,6 +46,18 @@ channels of the image gets reduced from 3 to 1. This also increases the processi
     <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
   </tr>
  </table>
+ 
+```
+The grayscale image is applied with a Gaussian filter. Two filters of different sigma values are applied to it and the
+two outputs are kept seperately. The Gaussian filter smoothens the image, reducing noise and clearing minor details and 
+imperfections in the image.
+```
+
  <br>
 <h3>Difference of Gaussian</h3>
 <img src="Difference/Output/GrayDiff1.jpg"></img>
+
+```
+By taking the difference of the output of Gaussian filter of two different sigma values on the same image, the edges and 
+corners gets sharpened while the open space gets nullified. This enchances the image for making feature point detection 
+```
