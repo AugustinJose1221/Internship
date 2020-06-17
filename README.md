@@ -58,6 +58,7 @@ imperfections in the image.
 <img src="Difference/Output/GrayDiff1.jpg"></img>
 
 ```
-By taking the difference of the output of Gaussian filter of two different sigma values on the same image, the edges and 
-corners gets sharpened while the open space gets nullified. This enchances the image for making feature point detection 
+By taking the difference of the output of Gaussian filter of two different sigma values on the same image
+, the edges and corners gets sharpened while the open space gets nullified. This enchances the image for 
+making feature point detection 
 ```
