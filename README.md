@@ -19,16 +19,20 @@ Change the video files in the Video directory to test it on custom video files
 <h2>Working</h2>
 <br>
 <h3>Input Image</h3>
-<img src="Test/img/test.jpg"></img>
+<img src="Test/img/test.jpg">
 ```
+
 The input image is loaded using opencv functions. All operations on the image is done as a numpy array.
+
 ```
 
 <br>
 <h3>Grayscale image</h3>
-<img src="Test/img/gray1.jpg"></img>
+<img src="Test/img/gray1.jpg">
 ```
+
 The image is converted to grayscale. By doing so, the details get more prominent and the number of channels of the image gets reduced from 3 to 1. This also increases the processing time of the program
+
 ```
 <br>
 <h3>Gaussian Blur</h3>
