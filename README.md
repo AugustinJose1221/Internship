@@ -30,11 +30,11 @@ Change the video files in the Video directory to test it on custom video files
 <div class="row">
 <div class="col-md-4">
 <h4>sigma=11</h4>
-<img src="Test/img/GrayBlur2.jpg"></img>
+<img src="Test/img/GrayBlur2.jpg" width="100"></img>
 </div>
 <div class="col-md-4">
 <h4>sigma=12</h4>
-<img src="Test/img/GrayBlur1.jpg"></img>
+<img src="Test/img/GrayBlur1.jpg" width="100"></img>
 </div>
 </div>
 
