@@ -27,13 +27,14 @@ Change the video files in the Video directory to test it on custom video files
 
 <br>
 <h3>Gaussian Blur</h3>
-<div class="row">
-<div class="col-md-4">
-<h4>sigma=11</h4>
-<img src="Test/img/GrayBlur2.jpg" width="500"/>
-</div>
-<div class="col-md-4">
-<h4>sigma=12</h4>
-<img src="Test/img/GrayBlur1.jpg" width="500"/>
-</div>
-</div>
+<table>
+  <tr>
+    <td>sigma=11</td>
+    <td>sigma=12/td>
+  </tr>
+  <tr>
+    <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
+    <td><img src="Test/img/GrayBlur2.jpg" width="500"></td>
+  </tr>
+  </table>
+
