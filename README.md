@@ -27,7 +27,7 @@ Change the video files in the Video directory to test it on custom video files
 
 <br>
 <h3>Gaussian Blur</h3>
-<table style="background-color: #000000">
+<table>
   <tr>
     <td>sigma=11</td>
     <td>sigma=12</td>
