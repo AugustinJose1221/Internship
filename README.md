@@ -20,6 +20,7 @@ Change the video files in the Video directory to test it on custom video files
 <br>
 <h3>Input Image</h3>
 <img src="Test/img/test.jpg"></img>
+<p align="justify">The input image is loaded using opencv functions. All operations on the image is done as a numpy array.</p>
 
 <br>
 <h3>Grayscale image</h3>
