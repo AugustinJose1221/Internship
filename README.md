@@ -22,7 +22,8 @@ Change the video files in the Video directory to test it on custom video files
 <img src="Test/img/test.jpg">
 
 ```
-The input image is loaded using opencv functions. All operations on the image is done as a numpy array.
+The input image is loaded using opencv functions. All operations on the image is done as a numpy
+array.
 ```
 
 <br>
@@ -30,8 +31,9 @@ The input image is loaded using opencv functions. All operations on the image is
 <img src="Test/img/gray1.jpg">
 
 ```
-The image is converted to grayscale. By doing so, the details get more prominent and the number of channels of the
-image gets reduced from 3 to 1. This also increases the processing time of the program
+The image is converted to grayscale. By doing so, the details get more prominent and the number of 
+channels of the image gets reduced from 3 to 1. This also increases the processing time of the 
+program
 ```
 
 <br>
@@ -48,9 +50,9 @@ image gets reduced from 3 to 1. This also increases the processing time of the p
  </table>
  
 ```
-The grayscale image is applied with a Gaussian filter. Two filters of different sigma values are applied to it and the
-two outputs are kept seperately. The Gaussian filter smoothens the image, reducing noise and clearing minor details and 
-imperfections in the image.
+The grayscale image is applied with a Gaussian filter. Two filters of different sigma values are 
+applied to it and the two outputs are kept seperately. The Gaussian filter smoothens the image, 
+reducing noise and clearing minor details and imperfections in the image.
 ```
 
  <br>
@@ -58,7 +60,7 @@ imperfections in the image.
 <img src="Difference/Output/GrayDiff1.jpg"></img>
 
 ```
-By taking the difference of the output of Gaussian filter of two different sigma values on the same image
-, the edges and corners gets sharpened while the open space gets nullified. This enchances the image for 
-making feature point detection 
+By taking the difference of the output of Gaussian filter of two different sigma values on the same 
+image, the edges and corners gets sharpened while the open space gets nullified. This enchances the 
+image for making feature point detection 
 ```
