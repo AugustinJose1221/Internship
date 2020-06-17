@@ -30,7 +30,8 @@ The input image is loaded using opencv functions. All operations on the image is
 <img src="Test/img/gray1.jpg">
 
 ```
-The image is converted to grayscale. By doing so, the details get more prominent and the number of channels of the image gets reduced from 3 to 1. This also increases the processing time of the program
+The image is converted to grayscale. By doing so, the details get more prominent and the number of 
+channels of the image gets reduced from 3 to 1. This also increases the processing time of the program
 ```
 
 <br>
