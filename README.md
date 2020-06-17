@@ -16,7 +16,7 @@ python main.py
 
 Change the video files in the Video directory to test it on custom video files
 
-<h2>Outputs</h2>
+<h2>Working</h2>
 <br>
 <h3>Input Image</h3>
 <img src="Test/img/test.jpg"></img>
@@ -25,4 +25,12 @@ Change the video files in the Video directory to test it on custom video files
 <h3>Grayscale image</h3>
 <img src="Test/img/gray1.jpg"></img>
 
+<br>
+<h3>Gaussian Blur</h3>
+<div>
+<h4>sigma=11</h4>
+<img src="Test/img/GrayBlur2.jpg"></img>
+<h4>sigma=12</h4>
+<img src="Test/img/GrayBlur1.jpg"></img>
+</div>
 
