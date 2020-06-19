@@ -62,5 +62,5 @@ reducing noise and clearing minor details and imperfections in the image.
 ```
 By taking the difference of the output of Gaussian filter of two different sigma values on the same 
 image, the edges and corners gets sharpened while the open space gets nullified. This enchances the 
-image for making feature point detection 
+image for making feature point detection.
 ```
