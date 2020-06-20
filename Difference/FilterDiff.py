@@ -23,10 +23,10 @@ def filterDiff(img1, img2):
                 diff[i][j][k] = pixel
                 
     return diff
-'''
+
 import cv2 
-img2 = cv2.imread("../Test/img/GrayBlur1.jpg")
-img1 = cv2.imread("../Test/img/GrayBlur2.jpg")
+img2 = cv2.imread("../Test/img/IMGblur1.jpg")
+img1 = cv2.imread("../Test/img/IMGblur2.jpg")
 out = filterDiff(img1, img2)
-cv2.imwrite("Output/GrayDiff1.jpg", out)
-'''
+cv2.imwrite("Output/IMGDiff1.jpg", out)
+
