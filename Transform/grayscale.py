@@ -11,7 +11,7 @@ import numpy as np
 
 def Grayscale(img):
     img_height, img_width = img.shape[:2]
-    channel = img.shape[2]
+    #channel = img.shape[2]
     gray = np.empty([img_height, img_width])
     value = 0
     for i in range(img_height):
