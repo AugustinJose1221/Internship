@@ -8,6 +8,8 @@
 git clone https://github.com/AugustinJose1221/Internship.git
 pip install -r requirements.txt
 ```
+Note: The program won't work for opencv-contrib-python for version above 3.4
+
 To run the program,
 
 ```
