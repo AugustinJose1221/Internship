@@ -9,7 +9,7 @@ Created on Mon Jun 22 18:02:47 2020
 
 import numpy as np
 from PIL import Image
-
+import cv2
 def convolution(oldimage, kernel):
     #image = Image.fromarray(image, 'RGB')
     image_h = oldimage.shape[0]
@@ -46,9 +46,9 @@ def convolution(oldimage, kernel):
     return image_conv[h:h_end,w:w_end]
     
 def GaussianBlurImage(image, sigma):
-    #image = imread(image)
-    image = Image.open(image)
-    image = np.asarray(image)
+    #image = cv2.imread(image)
+    #image = Image.open(image)
+    #image = np.asarray(image)
     #print(image)
     filter_size = 2 * int(4 * sigma + 0.5) + 1
     gaussian_filter = np.zeros((filter_size, filter_size), np.float32)
