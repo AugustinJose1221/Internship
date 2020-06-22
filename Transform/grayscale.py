@@ -21,7 +21,7 @@ def Grayscale(img):
     return gray
 '''
 import cv2
-image = cv2.imread("../Test/img/test1.jpg")
+image = cv2.imread("../Input/test.jpg")
 out = Grayscale(image)
-cv2.imwrite("Output/IMGgray1.jpg", out)
+cv2.imwrite("Output/test480gray1.jpg", out)
 '''
