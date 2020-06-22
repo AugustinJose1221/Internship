@@ -27,7 +27,11 @@ layer = img
 for i in range(octave):
     layer = GaussianBlurImage(layer, val)
     Pyramid.append(layer)
-print("Done")
+Diff = []
+for j in range(len(Pyramid)-1):
+    diff = filterDiff(Pyramid[j+1], Pyramid[j])
+    Diff.append(diff)
+
 
     
     

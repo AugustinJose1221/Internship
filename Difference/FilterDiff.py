@@ -11,13 +11,13 @@ import numpy as np
 
 def filterDiff(img1, img2):
     img_height, img_width = img1.shape[:2]
-    channel = img1.shape[2]
+    channel = 1#img1.shape[2]
     diff = np.empty([img_height, img_width, channel])
     pixel = 0
     for i in range(img_height):
         for j in range(img_width):
             for k in range(channel):
-                pixel = img1[i][j][k] - img2[i][j][k]
+                pixel = img1[i][j] - img2[i][j]
                 if pixel < 0:
                     pixel = 0
                 diff[i][j][k] = pixel
