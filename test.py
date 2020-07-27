@@ -107,14 +107,18 @@ imgcopy1 = imgcopy
 imgcopy2 = imgcopy
 for i in range(len(keypoints0)):
     cv2.circle(imgcopy0, (int(keypoints0[i][1]), int(keypoints0[i][0])), 1, (0, 0, 255), -1)
+'''
 for i in range(len(keypoints1)):
     cv2.circle(imgcopy1, (int(keypoints1[i][1]), int(keypoints1[i][0])), 1, (0, 0, 255), -1)
 for i in range(len(keypoints2)):
     cv2.circle(imgcopy2, (int(keypoints2[i][1]), int(keypoints2[i][0])), 1, (0, 0, 255), -1)
+'''
 
 cv2.imwrite("Test/img/LayerCheck0.jpg", imgcopy0)
+'''
 cv2.imwrite("Test/img/LayerCheck1.jpg", imgcopy1)
 cv2.imwrite("Test/img/LayerCheck2.jpg", imgcopy2)
+'''
 
 
     
