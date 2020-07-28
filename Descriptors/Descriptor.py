@@ -13,6 +13,7 @@ def descriptors(img, keypoints):
     img_height = img.shape[0]
     img_width = img.shape[1]
     window = []
+    descriptor = []
     for i in keypoints:
         x = int(keypoints[1])
         y = int(keypoints[0])
@@ -43,10 +44,9 @@ def descriptors(img, keypoints):
                         D[2] = D[2] + desc[j][k][0]
                     elif desc[j][k][1]>=-1 and desc[j][k][1]<0:
                         D[3] = D[3] + desc[j][k][0]
-                        
-                    
-                    
-                    
+        descriptor.append(D)
+    return descriptor
+
 def grad(array):
     flat = []
     for j in range(4):
