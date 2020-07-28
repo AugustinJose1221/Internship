@@ -28,6 +28,33 @@ def descriptors(img, keypoints):
                     dx=img[x_new+j+1][y_new+k]-img[x_new+j-1][y_new+k]
                     dy=img[x_new+j][y_new+k+1]-img[x_new+j][y_new+k-1]
                     window[i][j]=[((dx*dx)+(dy*dy))**0.5, dy/dx]
-            
-                
+            desc=[]
+            for j in range(4):
+                for k in range(4):
+                    desc[j][k] = grad(window[j*4:(j*4)+4][k*4:(k*4)+4])
+            D=[0,0,0,0,0,0,0,0]
+            for j in range(4):
+                for k in range(4):
+                    if desc[j][k][1]<1 and desc[j][k][1]>=0:
+                        D[0] = D[0] + desc[j][k][0]
+                    elif desc[j][k][1]>1:
+                        D[1] = D[1] + desc[j][k][0]
+                        
+                    
+                    
+                    
+def grad(array):
+    flat = []
+    for j in range(4):
+        for k in range(4):
+            flat.append(array[j][k][0])
+    grad = max(flat)
+    for i in range(len(flat)):
+        if flat[i]==grad:
+            pos=i
+            break
+    x = pos/4
+    y = pos%4
+    return [grad, array[x][y][1]]
+
             
