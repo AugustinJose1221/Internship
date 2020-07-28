@@ -105,6 +105,12 @@ for i in range(1, height-1):
 imgcopy0 = imgcopy
 imgcopy1 = imgcopy
 imgcopy2 = imgcopy
+
+
+
+
+
+
 for i in range(len(keypoints0)):
     cv2.circle(imgcopy0, (int(keypoints0[i][1]), int(keypoints0[i][0])), 1, (0, 0, 255), -1)
 '''
