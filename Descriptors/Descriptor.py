@@ -28,6 +28,6 @@ def descriptors(img, keypoints):
                     dx=img[x_new+j+1][y_new+k]-img[x_new+j-1][y_new+k]
                     dy=img[x_new+j][y_new+k+1]-img[x_new+j][y_new+k-1]
                     window[i][j]=[((dx*dx)+(dy*dy))**0.5, dy/dx]
-                
+            
                 
             
