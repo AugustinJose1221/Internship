@@ -6,7 +6,7 @@ Created on Mon Jun 22 18:03:19 2020
 @author: augustinjose
 """
 
-
+from Descriptors.Descriptor import descriptors
 from Resize.bilinear import Bilinear
 from Transform.grayscale import Grayscale
 from Transform.gaussian import GaussianBlurImage
