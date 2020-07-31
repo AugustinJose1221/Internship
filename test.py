@@ -13,8 +13,8 @@ from Transform.gaussian import GaussianBlurImage
 from Difference.FilterDiff import filterDiff
 
 import cv2
-import numpy.linalg as LA
-import numpy as np
+#import numpy.linalg as LA
+#import numpy as np
 
 img = cv2.imread("Input/test.jpg")
 imgcopy = cv2.imread("Input/test.jpg")
