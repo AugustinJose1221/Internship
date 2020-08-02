@@ -24,8 +24,8 @@ Change the video files in the Video directory to test it on custom video files
 <img src="Test/img/test.jpg">
 
 ```
-The input image is loaded using OpenCV functions. All operations on the image is done as a numpy
-array.
+The input image is loaded using OpenCV functions. All operations on the image is done as numpy
+arrays.
 ```
 
 <br>
