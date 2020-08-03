@@ -53,7 +53,7 @@ def grad(array):
     print(array.shape[0])
     print(array.shape[1])
     print(array.shape[2])
-    print(array)
+    #print(array)
     flat = []
     for j in range(4):
         for k in range(4):
