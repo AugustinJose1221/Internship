@@ -50,6 +50,7 @@ def descriptors(img, keypoints):
                         D[2] = D[2] + desc[j][k][0]
                     elif desc[j][k][1]>=-1 and desc[j][k][1]<0:
                         D[3] = D[3] + desc[j][k][0]
+            D.append([x,y])
         descriptor.append(D)
     return descriptor
 
