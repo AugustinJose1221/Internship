@@ -134,7 +134,6 @@ k2 = sift(img2)
 f1, f2 = Matcher(k1,k2)
 for i in range(len(f1)):
     cv2.circle(img1, (int(f1[i][1]), int(f1[i][0])), 1, (0, 0, 255), -1)
-    
 for i in range(len(f2)):
     cv2.circle(img2, (int(f2[i][1]), int(f2[i][0])), 1, (0, 0, 255), -1)
 cv2.imwrite("Test/img/imgLeft.jpg", img1)
