@@ -21,3 +21,6 @@ def Matcher(keypoints1, keypoints2):
                 new_keypoints_2.append(j[4])
 
     return new_keypoints_1, new_keypoints_2
+
+def Stitcher(img1, keypoints1, img2, keypoints2):
+    pass
