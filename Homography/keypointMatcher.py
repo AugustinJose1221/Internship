@@ -1,7 +1,6 @@
 import numpy as np
 
 def Matcher(keypoints1, keypoints2):
-
     tolerance = 10
     new_keypoints_1 =[]
     new_keypoints_2 =[]
