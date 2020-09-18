@@ -11,7 +11,7 @@ from Resize.bilinear import Bilinear
 from Transform.grayscale import Grayscale
 from Transform.gaussian import GaussianBlurImage
 from Difference.FilterDiff import filterDiff
-from Homography.keypointMatcher import Matcher
+from Homography.keypointMatcher import Matcher, Stitcher
 
 import cv2
 #import numpy.linalg as LA
@@ -128,13 +128,18 @@ def sift(img):
     return k_descriptors
 img1 = cv2.imread("Input/testleft.jpg")
 img2 = cv2.imread("Input/testright.jpg")
-
 k1 = sift(img1)
 k2 = sift(img2)
-f1, f2 = Matcher(k1,k2)
+f1, f2, p1, p2 = Matcher(k1,k2)
+#print(p1,"  ",p2)
+fi1 = Stitcher(img1, p1, img2, p2)
+#cv2.imwrite("Test/img/imgFinalLeft.jpg", fi1)
+cv2.imwrite("Test/img/Final.jpg", fi1)
+'''
 for i in range(len(f1)):
     cv2.circle(img1, (int(f1[i][1]), int(f1[i][0])), 1, (0, 0, 255), -1)
 for i in range(len(f2)):
     cv2.circle(img2, (int(f2[i][1]), int(f2[i][0])), 1, (0, 0, 255), -1)
 cv2.imwrite("Test/img/imgLeft.jpg", img1)
 cv2.imwrite("Test/img/imgRight.jpg", img2)
+'''
